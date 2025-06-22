@@ -1,0 +1,26 @@
+{
+  "name": "template-gs4",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Verteilen/Template-GS4#readme",
+  "bugs": {
+    "url": "https://github.com/Verteilen/Template-GS4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verteilen/Template-GS4.git"
+  },
+  "license": "ISC",
+  "author": "Elly",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node src/build.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  }
+}
