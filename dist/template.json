@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_CutVideo",
+            "title": "FFmpeg Cut Video",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_GreenScreen",
+            "title": "FFmpeg GreenScreen",
+            "group": "FFmpeg"
+        }
+    ],
+    "parameters": [
+        {
+            "filename": "GetExample_FFmpegProject_Parameter_Builder",
+            "title": "FFmpeg Share Data",
+            "group": "FFmpeg"
+        }
+    ]
+}
