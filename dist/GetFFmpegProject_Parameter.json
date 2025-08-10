@@ -22,7 +22,7 @@
             "src": "BigBuckBunny.mp4",
             "fps": "1",
             "folder": "images",
-            "output": "images\\%04d.png"
+            "output": "images^%04d.png"
         },
         "type": 3,
         "runtimeOnly": false,
@@ -34,13 +34,13 @@
             "framerate": 24,
             "data": [
                 {
-                    "src": "images/images\\%04d.png",
+                    "src": "images/images^%04d.png",
                     "start": "00:00:00",
                     "end": "00:05:00",
                     "output": "output1.mp4"
                 },
                 {
-                    "src": "images/images\\%04d.png",
+                    "src": "images/images^%04d.png",
                     "start": "00:00:00",
                     "end": "00:09:56",
                     "output": "output2.mp4"
