@@ -38,6 +38,7 @@ export const GetFFmpeg_ProjectTemplate_Video2Image = (r:Project):Project => {
         canWrite: true,
         containers: GetFFmpegProject_Parameter()
     }
+    r.title = "Video to Images"
     r.parameter = para
     r.task.push(...[
         Convert(),

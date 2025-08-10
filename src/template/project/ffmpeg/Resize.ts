@@ -37,6 +37,7 @@ export const GetFFmpeg_ProjectTemplate_Resize = (r:Project):Project => {
         canWrite: true,
         containers: GetFFmpegProject_Parameter()
     }
+    r.title = "Media Resize"
     r.parameter = para
     r.task.push(...[
         resize(),

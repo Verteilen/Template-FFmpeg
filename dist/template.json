@@ -2,32 +2,37 @@
     "projects": [
         {
             "filename": "GetFFmpeg_ProjectTemplate_Concat",
-            "title": "",
+            "title": "Media Concat",
             "group": "FFmpeg"
         },
         {
             "filename": "GetFFmpeg_ProjectTemplate_Download",
-            "title": "",
+            "title": "Media Download",
             "group": "FFmpeg"
         },
         {
             "filename": "GetFFmpeg_ProjectTemplate_Image2Video",
-            "title": "",
+            "title": "Images to Videos",
             "group": "FFmpeg"
         },
         {
             "filename": "GetFFmpeg_ProjectTemplate_Resize",
-            "title": "",
+            "title": "Media Resize",
             "group": "FFmpeg"
         },
         {
             "filename": "GetFFmpeg_ProjectTemplate_Transcode",
-            "title": "",
+            "title": "Media Transcode",
             "group": "FFmpeg"
         },
         {
             "filename": "GetFFmpeg_ProjectTemplate_Video2Image",
-            "title": "",
+            "title": "Video to Images",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_Info",
+            "title": "Media Info",
             "group": "FFmpeg"
         }
     ],

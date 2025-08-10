@@ -1,11 +1,11 @@
 {
     "uuid": "",
-    "title": "",
+    "title": "Video to Images",
     "description": "",
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075986-dedd-6fb9-92d4-f7a8dbf5975b",
+            "uuid": "1f075b90-54da-66e5-baa7-ea21116b062a",
             "title": "Video to Images",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075986-dedd-6fb8-84dd-0832e48e5b83",
+                    "uuid": "1f075b90-54da-66e4-8e16-ad35c4a0b016",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075986-dedd-6fb7-b342-07bec176c624",
+        "uuid": "1f075b90-54da-66e3-8e31-b49f4a786d3d",
         "canWrite": true,
         "containers": [
             {
@@ -117,6 +117,16 @@
                     "output": "resize_final.mov",
                     "wiidth": 1920,
                     "height": 1080
+                },
+                "type": 3,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "Info",
+                "value": {
+                    "src": "BigBuckBunny.mp4",
+                    "output": "media_info.json"
                 },
                 "type": 3,
                 "runtimeOnly": false,

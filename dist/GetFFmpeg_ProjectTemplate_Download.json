@@ -1,11 +1,11 @@
 {
     "uuid": "",
-    "title": "",
+    "title": "Media Download",
     "description": "",
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075986-dedb-68a5-b536-e6c92402224d",
+            "uuid": "1f075b90-54d7-6fd2-915b-f9f065709e35",
             "title": "Download video to source",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075986-dedb-68a4-b8e2-4686528daa72",
+                    "uuid": "1f075b90-54d7-6fd1-b19c-e27a16dd9e1d",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075986-dedb-68a3-a0b2-1b0f9b1d7be8",
+        "uuid": "1f075b90-54d7-6fd0-b23e-ae50be1a438a",
         "canWrite": true,
         "containers": [
             {
@@ -117,6 +117,16 @@
                     "output": "resize_final.mov",
                     "wiidth": 1920,
                     "height": 1080
+                },
+                "type": 3,
+                "runtimeOnly": false,
+                "hidden": false
+            },
+            {
+                "name": "Info",
+                "value": {
+                    "src": "BigBuckBunny.mp4",
+                    "output": "media_info.json"
                 },
                 "type": 3,
                 "runtimeOnly": false,

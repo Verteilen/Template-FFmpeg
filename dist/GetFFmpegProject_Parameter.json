@@ -87,6 +87,16 @@
         "hidden": false
     },
     {
+        "name": "Info",
+        "value": {
+            "src": "BigBuckBunny.mp4",
+            "output": "media_info.json"
+        },
+        "type": 3,
+        "runtimeOnly": false,
+        "hidden": false
+    },
+    {
         "name": "crf",
         "value": 21,
         "type": 1,

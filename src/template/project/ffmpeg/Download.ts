@@ -38,6 +38,7 @@ export const GetFFmpeg_ProjectTemplate_Download = (r:Project):Project => {
         canWrite: true,
         containers: GetFFmpegProject_Parameter()
     }
+    r.title = "Media Download"
     r.parameter = para
     r.task.push(...[
         Download(),

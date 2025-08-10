@@ -40,6 +40,7 @@ export const GetFFmpeg_ProjectTemplate_Transcode = (r:Project):Project => {
         canWrite: true,
         containers: GetFFmpegProject_Parameter()
     }
+    r.title = "Media Transcode"
     r.parameter = para
     r.task.push(...[
         trans(),

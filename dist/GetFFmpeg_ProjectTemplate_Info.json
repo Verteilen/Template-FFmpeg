@@ -1,28 +1,28 @@
 {
     "uuid": "",
-    "title": "Media Transcode",
+    "title": "Media Info",
     "description": "",
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54da-66e2-a5c8-2ba9f0f95a4e",
-            "title": "Render frame one by one",
+            "uuid": "1f075b90-54da-66e8-a487-98bd945a9c63",
+            "title": "Fetch info into json file",
             "description": "",
             "setupjob": false,
-            "cronjob": true,
-            "cronjobKey": "frameCount",
+            "cronjob": false,
+            "cronjobKey": "",
             "multi": false,
             "multiKey": "",
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54da-66e1-973a-2f3a44c54642",
+                    "uuid": "1f075b90-54da-66e7-bf85-916ede59588d",
                     "category": 1,
                     "type": 9,
                     "script": "",
                     "string_args": [
-                        "ffmpeg",
-                        "-hide_banner -y -i %src% -crf %crf% -c:v %video_encode% -c:a %audio_encode% -pix_fmt %pixel_format% -color_primaries %color_primaries% -color_trc %color_trc% -colorspace %colorspace% %output%"
+                        "ffprobe",
+                        "ffprobe -v quiet -print_format json -show_format -show_streams %root%/%Info.src% > %root%/%Info.output%"
                     ],
                     "number_args": [],
                     "boolean_args": []
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54da-66e0-8d60-3425e215ae7c",
+        "uuid": "1f075b90-54da-66e6-bd29-15f1544f74e2",
         "canWrite": true,
         "containers": [
             {

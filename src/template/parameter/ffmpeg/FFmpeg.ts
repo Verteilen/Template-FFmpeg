@@ -48,6 +48,10 @@ export const GetFFmpegProject_Parameter = ():ParameterContainer[] => {
             wiidth: 1920,
             height: 1080
         }, type: DataType.Object, runtimeOnly: false, hidden: false },
+        { name: "Info", value: {
+            src: "BigBuckBunny.mp4",
+            output: "media_info.json"
+        }, type: DataType.Object, runtimeOnly: false, hidden: false },
         { name: "crf", value: 21, type: DataType.Number, runtimeOnly: false, hidden: false },
         { name: "fps", value: 24, type: DataType.Number, runtimeOnly: false, hidden: false },
         { name: "format", value: 'mp4', type: DataType.String, runtimeOnly: false, hidden: false },
