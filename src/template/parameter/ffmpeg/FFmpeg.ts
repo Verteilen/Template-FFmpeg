@@ -12,7 +12,7 @@ export const GetFFmpegProject_Parameter = ():ParameterContainer[] => {
             src: "BigBuckBunny.mp4",
             fps: "1",
             folder: "images",
-            output: "images%04d.png"
+            output: "images_%04d.png"
         }, type: DataType.Object, runtimeOnly: false, hidden: false },
         { name: "I2Video", value: {
             framerate: 24,

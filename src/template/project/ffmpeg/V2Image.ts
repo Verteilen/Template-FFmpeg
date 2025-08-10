@@ -19,7 +19,7 @@ const Convert = ():Task => {
         type: JobType.LIB_COMMAND,
         script: "",
         string_args: ["ffmpeg", "-hide_banner -y -i %root%/%Video2I.src% "+
-            "-vf fps=%Video2I.fps% %root%/%Video2I.folder%/%Video2I.folder%/%Video2I.output%"],
+            "-vf fps=%Video2I.fps% %root%/%Video2I.folder%/%Video2I.output%"],
         number_args: [],
         boolean_args: []
     }

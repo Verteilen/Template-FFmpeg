@@ -22,7 +22,7 @@
             "src": "BigBuckBunny.mp4",
             "fps": "1",
             "folder": "images",
-            "output": "images%04d.png"
+            "output": "images_%04d.png"
         },
         "type": 3,
         "runtimeOnly": false,

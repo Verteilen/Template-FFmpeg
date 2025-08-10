@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075c12-b1f6-60e2-94e6-0034a0cc5d80",
+            "uuid": "1f075c1c-dcfc-6914-9ca6-1e5148398d95",
             "title": "Resize a media",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075c12-b1f6-60e1-9c6b-613efafa3710",
+                    "uuid": "1f075c1c-dcfc-6913-aff0-cf2419825549",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075c12-b1f6-60e0-b6e6-e8403c6ba811",
+        "uuid": "1f075c1c-dcfc-6912-a260-35087097c7a1",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +58,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images%04d.png"
+                    "output": "images_%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,

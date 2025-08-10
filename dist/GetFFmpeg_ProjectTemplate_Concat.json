@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075c12-b1f3-69d2-8c0c-726ac6d0436e",
+            "uuid": "1f075c1c-dcfa-6202-b03f-0955203f388d",
             "title": "Concat videos to a single video",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075c12-b1f3-69d0-899c-2528890612cf",
+                    "uuid": "1f075c1c-dcfa-6200-a5f1-bbfcb8f790ff",
                     "category": 1,
                     "type": 7,
                     "script": "\nlet root = env.getstring('root');\nlet concat = env.getobject('Concat');\nlet text = '# videos output belows\\n';\nfor(i = 0; i < concat.videos.length; i++){\n    text += concat.videos[i];\n    text += \"\\n\";\n}\nos.writefile(`${root}/concat.txt`, text);\n",
@@ -25,7 +25,7 @@
                     "boolean_args": []
                 },
                 {
-                    "uuid": "1f075c12-b1f3-69d1-af14-aeccd76d7609",
+                    "uuid": "1f075c1c-dcfa-6201-b676-466678a053a6",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -41,7 +41,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075c12-b1f1-62c0-bf0f-84ac3751c756",
+        "uuid": "1f075c1c-dcf7-6af0-b2fa-c7c7d850aca0",
         "canWrite": true,
         "containers": [
             {
@@ -67,7 +67,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images%04d.png"
+                    "output": "images_%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,

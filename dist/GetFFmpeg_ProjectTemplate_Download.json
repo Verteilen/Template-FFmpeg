@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075c12-b1f3-69d5-8361-1918d80d9821",
+            "uuid": "1f075c1c-dcfa-6205-905b-6465cd5b408e",
             "title": "Download video to source",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075c12-b1f3-69d4-a6e1-bdb23d2da4c2",
+                    "uuid": "1f075c1c-dcfa-6204-b403-1e4a796c18b4",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075c12-b1f3-69d3-8f61-f1692362f6c7",
+        "uuid": "1f075c1c-dcfa-6203-a4cd-56d202acf4d7",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +58,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images%04d.png"
+                    "output": "images_%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,

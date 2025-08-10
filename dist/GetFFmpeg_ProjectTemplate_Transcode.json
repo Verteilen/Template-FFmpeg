@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075c12-b1f6-60e5-a0cb-79687f144a66",
+            "uuid": "1f075c1c-dcfc-6917-8436-4ced7c4d329b",
             "title": "Render frame one by one",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075c12-b1f6-60e4-a014-cb4bfbc87bf9",
+                    "uuid": "1f075c1c-dcfc-6916-a7c4-65a54da33643",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075c12-b1f6-60e3-b475-af90ed86a78f",
+        "uuid": "1f075c1c-dcfc-6915-9418-ec106d44c287",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +58,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images%04d.png"
+                    "output": "images_%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,
