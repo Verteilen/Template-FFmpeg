@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075c0a-60fa-6862-8d7b-3c031bcd6dab",
+            "uuid": "1f075c12-b1f6-60e9-912d-ab2851e361c8",
             "title": "Video to Images",
             "description": "",
             "setupjob": false,
@@ -16,13 +16,24 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075c0a-60fa-6861-a67d-8e086b2751f2",
+                    "uuid": "1f075c12-b1f6-60e7-9a9a-2a82d9d9651d",
+                    "category": 1,
+                    "type": 5,
+                    "script": "",
+                    "string_args": [
+                        "%root%/%Video2I.folder%/%Video2I.folder%"
+                    ],
+                    "number_args": [],
+                    "boolean_args": []
+                },
+                {
+                    "uuid": "1f075c12-b1f6-60e8-87e3-ff857382cd85",
                     "category": 1,
                     "type": 9,
                     "script": "",
                     "string_args": [
                         "ffmpeg",
-                        "-hide_banner -y -i %root%/%Video2I.src% -vf fps=%Video2I.fps% %root%/%Video2I.folder%/%Video2I.folder%"
+                        "-hide_banner -y -i %root%/%Video2I.src% -vf fps=%Video2I.fps% %root%/%Video2I.folder%/%Video2I.folder%/%Video2I.output%"
                     ],
                     "number_args": [],
                     "boolean_args": []
@@ -32,7 +43,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075c0a-60fa-6860-8546-e2b25d9e4488",
+        "uuid": "1f075c12-b1f6-60e6-96db-437a65492fca",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +69,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images^%04d.png"
+                    "output": "images%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,
@@ -70,13 +81,13 @@
                     "framerate": 24,
                     "data": [
                         {
-                            "src": "images/images^%04d.png",
+                            "src": "images/images%04d.png",
                             "start": "00:00:00",
                             "end": "00:05:00",
                             "output": "output1.mp4"
                         },
                         {
-                            "src": "images/images^%04d.png",
+                            "src": "images/images%04d.png",
                             "start": "00:00:00",
                             "end": "00:09:56",
                             "output": "output2.mp4"
