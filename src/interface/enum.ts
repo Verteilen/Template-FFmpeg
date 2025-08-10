@@ -1,3 +1,8 @@
+// ========================
+//                           
+//      Share Codebase     
+//                           
+// ========================
 export enum SocketState {
     CONNECTING = 0,
     OPEN = 1,
@@ -9,8 +14,17 @@ export enum DataType {
     Boolean, 
     Number, 
     String,
-    Expression,
     Object,
+    Expression,
+    Textarea,
+    Select,
+    List,
+}
+
+export enum DataTypeBase {
+    Boolean, 
+    Number, 
+    String,
 }
 
 export enum ResourceType {
@@ -55,7 +69,8 @@ export enum JobType {
     CREATE_DIR,
     RENAME,
     JAVASCRIPT,
-    COMMAND
+    COMMAND,
+    LIB_COMMAND,
 }
 
 export enum JobType2 {
@@ -65,20 +80,17 @@ export enum JobType2 {
 
 export enum ProjectTemplate {
     DEFAULT = 0,
-
-    GS4_FULL = 100,
-    GS4_PREPARE = 101,
-    GS4_COLMAP = 102,
-    GS4_IFRAME = 103,
-    GS4_BLEND_PREPARE = 104,
-    GS4_BLEND = 105,
-    GS4_OUTPUT = 106,
-    GS4_LUT = 107,
-    GS4_MASK = 108,
-
-    FFmpeg_Concat = 200,
+    DEFAULT_SHORT = 1,
+    FFmpeg_Download = 200,
+    FFmpeg_Concat = 201,
     Blender = 300,
+    Blender_Cluster = 301,
     AfterEffect = 400,
+}
+
+export enum ParameterTemplate {
+    DEFAULT = 0,
+    FFmpeg = 200,
 }
 
 export enum ExecuteState {
@@ -98,14 +110,18 @@ export enum JavascriptLib {
     ENV = 1 << 1, 
     MESSAGE = 1 << 2,
     HTTP = 1 << 3,
+    PATH = 1 << 4,
 }
 
 export const DataTypeText: { [key:number]:string } = {
     0: 'types.boolean',
     1: 'types.number',
     2: 'types.string',
-    3: 'types.expression',
-    4: 'types.object',
+    3: 'types.object',
+    4: 'types.expression',
+    5: 'types.textarea',
+    6: 'types.select',
+    7: 'types.list',
 }
 
 export const ExecuteStateText: { [key:number]:string } = {
@@ -146,7 +162,8 @@ export const JobTypeText: { [key:number]:string } = {
     5: 'enum.jobtype.create-dir',
     6: 'enum.jobtype.rename',
     7: 'enum.jobtype.javascript',
-    8: 'enum.jobtype.command'
+    8: 'enum.jobtype.command',
+    9: 'enum.jobtype.lib_command',
 }
 
 export const JobType2Text: { [key:number]:string } = {
@@ -156,16 +173,15 @@ export const JobType2Text: { [key:number]:string } = {
 
 export const ProjectTemplateText: { [key:number]:string } = {
     0: 'enum.project.default',
-    100: 'enum.project.gs4-full',
-    101: 'enum.project.gs4-prepare',
-    102: 'enum.project.gs4-colmap',
-    103: 'enum.project.gs4-iframe',
-    104: 'enum.project.gs4-blend-prepare',
-    105: 'enum.project.gs4-blend',
-    106: 'enum.project.gs4-output',
-    107: 'enum.project.gs4-lut',
-    108: 'enum.project.gs4-mask',
-    200: 'enum.project.concat',
+    1: 'enum.project.default_short',
+    200: 'enum.project.ffmpeg_download',
+    201: 'enum.project.concat',
     300: 'enum.project.blender',
+    301: 'enum.project.blender_cluster',
     400: 'enum.project.aftereffect',
+}
+
+export const ParameterTemplateText: { [key:number]:string } = {
+    0: 'enum.parameter.default',
+    200: 'enum.parameter.ffmpeg',
 }

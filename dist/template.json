@@ -1,19 +1,39 @@
 {
     "projects": [
         {
-            "filename": "GetFFmpeg_ProjectTemplate_CutVideo",
-            "title": "FFmpeg Cut Video",
+            "filename": "GetFFmpeg_ProjectTemplate_Concat",
+            "title": "",
             "group": "FFmpeg"
         },
         {
-            "filename": "GetFFmpeg_ProjectTemplate_GreenScreen",
-            "title": "FFmpeg GreenScreen",
+            "filename": "GetFFmpeg_ProjectTemplate_Download",
+            "title": "",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_Image2Video",
+            "title": "",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_Resize",
+            "title": "",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_Transcode",
+            "title": "",
+            "group": "FFmpeg"
+        },
+        {
+            "filename": "GetFFmpeg_ProjectTemplate_Video2Image",
+            "title": "",
             "group": "FFmpeg"
         }
     ],
     "parameters": [
         {
-            "filename": "GetExample_FFmpegProject_Parameter_Builder",
+            "filename": "GetFFmpegProject_Parameter",
             "title": "FFmpeg Share Data",
             "group": "FFmpeg"
         }
