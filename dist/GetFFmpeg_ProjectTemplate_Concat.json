@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54d5-68c3-af75-5e5148ba20bc",
+            "uuid": "1f075b9a-6b84-68a2-9bc0-9f4d59a15729",
             "title": "Concat videos to a single video",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54d5-68c1-9306-6332f3acd6be",
+                    "uuid": "1f075b9a-6b84-68a0-965e-45679a7e1c4d",
                     "category": 1,
                     "type": 7,
                     "script": "\nlet root = env.getstring('root');\nlet concat = env.getobject('Concat');\nlet text = '# videos output belows\\n';\nfor(i = 0; i < concat.videos.length; i++){\n    text += concat.videos[i];\n    text += \"\\n\";\n}\nos.writefile(`${root}/concat.txt`, text);\n",
@@ -25,7 +25,7 @@
                     "boolean_args": []
                 },
                 {
-                    "uuid": "1f075b90-54d5-68c2-8272-f36e6267da49",
+                    "uuid": "1f075b9a-6b84-68a1-8f81-54640dabca40",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -41,7 +41,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54d5-68c0-b4ab-7e53fc97465b",
+        "uuid": "1f075b9a-6b82-6190-a3f6-f8b60293d3ad",
         "canWrite": true,
         "containers": [
             {

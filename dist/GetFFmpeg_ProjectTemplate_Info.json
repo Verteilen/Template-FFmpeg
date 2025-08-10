@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54da-66e8-a487-98bd945a9c63",
+            "uuid": "1f075b9a-6b86-6fb9-b544-6b189dac7eca",
             "title": "Fetch info into json file",
             "description": "",
             "setupjob": false,
@@ -16,13 +16,13 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54da-66e7-bf85-916ede59588d",
+                    "uuid": "1f075b9a-6b86-6fb8-a5fb-34e5e4ca33cd",
                     "category": 1,
                     "type": 9,
                     "script": "",
                     "string_args": [
                         "ffprobe",
-                        "ffprobe -v quiet -print_format json -show_format -show_streams %root%/%Info.src% > %root%/%Info.output%"
+                        "-v quiet -print_format json -show_format -show_streams %root%/%Info.src% > %root%/%Info.output%"
                     ],
                     "number_args": [],
                     "boolean_args": []
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54da-66e6-bd29-15f1544f74e2",
+        "uuid": "1f075b9a-6b86-6fb7-b57b-56dccb64205b",
         "canWrite": true,
         "containers": [
             {

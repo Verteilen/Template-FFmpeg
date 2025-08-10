@@ -9,7 +9,7 @@ const Info = ():Task => {
         category: JobCategory.Execution,
         type: JobType.LIB_COMMAND,
         script: "",
-        string_args: ["ffprobe", "ffprobe -v quiet -print_format json -show_format -show_streams %root%/%Info.src% > %root%/%Info.output%"],
+        string_args: ["ffprobe", "-v quiet -print_format json -show_format -show_streams %root%/%Info.src% > %root%/%Info.output%"],
         number_args: [],
         boolean_args: []
     }

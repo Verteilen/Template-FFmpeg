@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54da-66e5-baa7-ea21116b062a",
+            "uuid": "1f075b9a-6b86-6fb6-ac25-74322cd5186c",
             "title": "Video to Images",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54da-66e4-8e16-ad35c4a0b016",
+                    "uuid": "1f075b9a-6b86-6fb5-b288-879ab1f97616",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54da-66e3-8e31-b49f4a786d3d",
+        "uuid": "1f075b9a-6b86-6fb4-a459-2340628fd860",
         "canWrite": true,
         "containers": [
             {

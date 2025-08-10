@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54da-66e2-a5c8-2ba9f0f95a4e",
+            "uuid": "1f075b9a-6b86-6fb3-a0cc-efb0da971532",
             "title": "Render frame one by one",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54da-66e1-973a-2f3a44c54642",
+                    "uuid": "1f075b9a-6b86-6fb2-bac7-35c7331954cf",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54da-66e0-8d60-3425e215ae7c",
+        "uuid": "1f075b9a-6b86-6fb1-993e-74628d93b9dd",
         "canWrite": true,
         "containers": [
             {

@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075b90-54d7-6fd2-915b-f9f065709e35",
+            "uuid": "1f075b9a-6b84-68a5-b6d1-7c9917a71b84",
             "title": "Download video to source",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075b90-54d7-6fd1-b19c-e27a16dd9e1d",
+                    "uuid": "1f075b9a-6b84-68a4-a7d4-e29d7a0924b5",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075b90-54d7-6fd0-b23e-ae50be1a438a",
+        "uuid": "1f075b9a-6b84-68a3-8f00-eed00ec71481",
         "canWrite": true,
         "containers": [
             {
