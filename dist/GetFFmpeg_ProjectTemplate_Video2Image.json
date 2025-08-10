@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075bf0-7772-6eea-a1da-d1cdbfef3f43",
+            "uuid": "1f075bfe-5b1b-6f42-ae3d-545d24ee4e6b",
             "title": "Video to Images",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075bf0-7772-6ee9-b4f6-d0176b56c1fb",
+                    "uuid": "1f075bfe-5b1b-6f41-87b9-b6445156113e",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075bf0-7772-6ee8-8977-fd477c709dc9",
+        "uuid": "1f075bfe-5b1b-6f40-935d-0a36009d86d6",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +58,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images\\\\%04d.png"
+                    "output": "images\\%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,
@@ -70,13 +70,13 @@
                     "framerate": 24,
                     "data": [
                         {
-                            "src": "images/images\\\\%04d.png",
+                            "src": "images/images\\%04d.png",
                             "start": "00:00:00",
                             "end": "00:05:00",
                             "output": "output1.mp4"
                         },
                         {
-                            "src": "images/images\\\\%04d.png",
+                            "src": "images/images\\%04d.png",
                             "start": "00:00:00",
                             "end": "00:09:56",
                             "output": "output2.mp4"
