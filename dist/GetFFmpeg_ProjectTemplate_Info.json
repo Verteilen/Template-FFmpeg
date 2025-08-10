@@ -5,7 +5,7 @@
     "parameter_uuid": "",
     "task": [
         {
-            "uuid": "1f075be5-b2cb-6ce1-8311-d98fcd592be6",
+            "uuid": "1f075bf0-7772-6eed-baad-27beba402a48",
             "title": "Fetch info into json file",
             "description": "",
             "setupjob": false,
@@ -16,7 +16,7 @@
             "properties": [],
             "jobs": [
                 {
-                    "uuid": "1f075be5-b2cb-6ce0-addb-1ab6bcbc9b4a",
+                    "uuid": "1f075bf0-7772-6eec-8dbb-99330285808b",
                     "category": 1,
                     "type": 9,
                     "script": "",
@@ -32,7 +32,7 @@
     ],
     "parameter": {
         "title": "FFmpeg Parameter",
-        "uuid": "1f075be5-b2c9-65dc-8680-52289b31d863",
+        "uuid": "1f075bf0-7772-6eeb-91cf-f6e96d640469",
         "canWrite": true,
         "containers": [
             {
@@ -58,7 +58,7 @@
                     "src": "BigBuckBunny.mp4",
                     "fps": "1",
                     "folder": "images",
-                    "output": "images\\%04d.png"
+                    "output": "images\\\\%04d.png"
                 },
                 "type": 3,
                 "runtimeOnly": false,
@@ -70,13 +70,13 @@
                     "framerate": 24,
                     "data": [
                         {
-                            "src": "images/images\\%04d.png",
+                            "src": "images/images\\\\%04d.png",
                             "start": "00:00:00",
                             "end": "00:05:00",
                             "output": "output1.mp4"
                         },
                         {
-                            "src": "images/images\\%04d.png",
+                            "src": "images/images\\\\%04d.png",
                             "start": "00:00:00",
                             "end": "00:09:56",
                             "output": "output2.mp4"
